@@ -1,0 +1,24 @@
+body{
+    background-color: var(--neutral-dark);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nft-card{
+    max-width: 346px;
+    background-color: var(--neutral-medium);
+    padding: 20px;
+    border-radius: 10px ;
+
+   
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
