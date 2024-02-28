@@ -1,5 +1,6 @@
 body{
     background-color: var(--neutral-dark);
+    font-family: 'Outfit', sans-serif;
     
 }
 
@@ -21,4 +22,87 @@ main{
 img{
     width: 100%;
     border-radius: 10px;
+}
+
+.title-link .title{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0 15px 0;
+   
+}
+
+.about{
+    color: var(--primary-soft);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.info{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.info .price{
+    color: var(--primary-medium);
+    display: flex;
+
+}
+
+.info .price::before{
+    content: '';
+    background-image: url(../images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+    
+
+}
+
+.info .days-left{
+    color: var(--primary-soft);
+    display: flex;
+}
+
+.info .days-left::before{
+    content: '';
+    background-image: url(../images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.creator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    
+    
+}
+
+.creator .avatar{
+    max-width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px ;
+    
+}
+
+.creator .text{
+    color: var(--primary-soft);
+   
+}
+
+.creator .text .name{
+    color: #ffff;
 }
